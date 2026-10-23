@@ -33,7 +33,9 @@ public class ArrayTest01 {
 			
 			
 			
-			//System.out.println(ives[6] ); -exception
+			
+			
+			     //System.out.println(ives[6] ); -exception
 				
 			}
 		
