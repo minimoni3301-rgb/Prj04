@@ -3,8 +3,12 @@ package ex01;
 public class ArrayTest01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		System.out.println("강지우");
+		System.out.println("안효욱");
+		System.out.println("박서현");
+		
+		
 	}
 
 }
