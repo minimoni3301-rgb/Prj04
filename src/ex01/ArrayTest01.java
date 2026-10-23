@@ -32,8 +32,7 @@ public class ArrayTest01 {
 			System.out.println( ives[i] );
 			    
 			
-			//System.out.println(ives[6] ); -exception
-				
+			
 			}
 		
 	}
