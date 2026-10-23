@@ -1,16 +1,41 @@
 package ex01;
 
 public class ArrayTest01 {
-
+   // Array : 여러변수를 하나의 이름으로 통일해서 사용
 	public static void main(String[] args) {
+		// 이서 · 가을 · 안유진 · 장원영 · 리즈 · 레이
+		String name1 = "이서";
+		String name2 = "가을";	
+		System.out.println(name1);
+		System.out.println(name2);
+		System.out.println("안유진");
+		System.out.println("장원영");
+		System.out.println("리즈");
+		System.out.println("레이");
+		System.out.println();
 		
-		System.out.println("강지우");
-		System.out.println("안효욱");
-		System.out.println("박서현");
-		System.out.println("강서인");
+		// 변수 선언문 뒤에 =이 없는 이유는 아직 값을 집어넣지 않고 이름만 먼저 등록 
+		String [] ives = new String[]  {
+	     //        0      1        2         3         4      5
+				"이서", "가을", "안유진", "장원영", "리즈", "레이"
+		};
+		System.out.println( ives[0] );
+		System.out.println( ives[1] );
+		System.out.println( ives[2] );
+		System.out.println( ives[3] );
+		System.out.println( ives[4] );
+		System.out.println( ives[5] );
 		
+		System.out.println();
 		
+		for(int i = 0; i < ives.length; i++) {
+			System.out.println( ives[i] );
+			
+			//System.out.println(ives[6] ); -exception
+				
+			}
 		
 	}
 
 }
+
