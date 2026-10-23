@@ -30,12 +30,7 @@ public class ArrayTest01 {
 		
 		for(int i = 0; i < ives.length; i++) {
 			System.out.println( ives[i] );
-			
-			
-			
-			
-			
-			     
+			    
 			
 			
 			//System.out.println(ives[6] ); -exception
